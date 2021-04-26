@@ -84,7 +84,7 @@ def predict(data,test,train,k):
     return correct
 
 
-data = pd.read_csv('../input/iriscsv/IRIS.csv')
+data = pd.read_csv('IRIS.csv')
 t1=[]
 t2=[]
 t3=[]
