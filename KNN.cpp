@@ -117,7 +117,7 @@ int KNN(int K, vector<first>&test, vector<first>&train)
 int main()
 {
     fstream f;
-    f.open("/home/cryptoduh/Downloads/Iris.csv",ios::in);
+    f.open("Iris.csv",ios::in); //path to file
     vector<first>t1,t2,t3,t4,train,test;
     string line;
     getline(f,line);
